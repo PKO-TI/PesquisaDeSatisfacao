@@ -131,7 +131,7 @@
   
   table {
     width: 100%;
-    border-collapse: collapse; /* Remove qualquer espaço duplo causado pelas bordas */
+    border-collapse: collapse; /* Remove qualquer espaço duplo causado pelas  bordas */
   }
 
   /* Estiliza os cabeçalhos e células da tabela */
