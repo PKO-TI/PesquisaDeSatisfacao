@@ -1,0 +1,178 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #473838;
+    background-image: url('C:/Users/amaranta.lino/src/Pesquisa_satisfacao/img/pko.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px; /* Adicione algum espaçamento ao redor do  conteúdo */
+  }
+  
+  form {
+    max-width: 1000px; /* Largura máxima ajustada para 600 pixels */
+    margin: 20px auto;
+    padding: 10px;
+    background: #ecf0f5;
+    border-radius: 10px;
+  }
+  
+  
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #1455a0;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #1455a0;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+
+  label.normal{
+    font-weight: normal;
+  }
+  
+  .number {
+    background-color: #678bbb;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+
+  .underline-input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+  }
+
+  .horizontal-radio {
+    display: inline; 
+    margin-right: 10px; 
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Remove qualquer espaço duplo causado pelas  bordas */
+  }
+
+  /* Estiliza os cabeçalhos e células da tabela */
+  th, td {
+    border: 1px solid black; /* Adiciona uma borda preta */
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 8px; /* Adiciona um espaçamento interno para o texto não ficar colado na borda */
+  }
+
+  /* Estiliza o cabeçalho da tabela */
+  th {
+    background-color: #ecf0f5; /* Adiciona uma cor de fundo para o cabeçalho */
+  }
+
+  .header-container {
+    display: flex; /* Ativa flexbox */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+}
+
+.header-container h1 {
+    margin: 0; /* Remove a margem padrão dos títulos */
+    padding-left: 10px; /* Adiciona um pouco de espaço entre a imagem e o título */
+}
+
+  @media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 800px;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      max-width: 100%;
+    }
+  }
+  
+  /* Estilos específicos para telas menores (exemplo: dispositivos móveis) */
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
