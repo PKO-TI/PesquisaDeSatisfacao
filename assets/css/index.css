@@ -1,0 +1,12 @@
+@import url('base.css');
+header{
+    background-color: var(--cor_3);
+}
+.cabecalho_titulo{
+    text-align: right;
+}
+
+main{
+    background-color: var(--cor_2);
+    color: var(--cor_3);
+}

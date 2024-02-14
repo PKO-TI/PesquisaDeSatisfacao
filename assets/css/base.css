@@ -12,8 +12,10 @@
     --fonte_titulo: 'Mulish-Black',sans-serif;
     --fonte_Corpo:  'Mulish-Regular',sans-serif;
 
-    --cor_primaria: #bbd2ec;
-    --cor_secundaria: #678bbb;
+    --cor_1: #bbd2ec;
+    --cor_2: #00202f;
+    --cor_3: #fff; 
+
     --cor_aviso: #ff0000;
 
     --sombra: 0 5px 10px #55a6ff38;
