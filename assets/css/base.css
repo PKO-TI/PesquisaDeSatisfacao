@@ -1,0 +1,23 @@
+@font-face{
+    font-family:'Mulish-Black';
+    src: url('../Fontes/static/Mulish-Black.ttf') format('opentype');
+    font-weight: normal;
+
+    font-family:'Mulish-Regular';
+    src: url('../Fontes/static/Mulish-Regular.ttf') format('opentype');
+    font-weight: normal;
+
+}
+:root{
+    --fonte_titulo: 'Mulish-Black',sans-serif;
+    --fonte_Corpo:  'Mulish-Regular',sans-serif;
+
+    --cor_primaria: #bbd2ec;
+    --cor_secundaria: #678bbb;
+    --cor_aviso: #ff0000;
+
+    --sombra: 0 5px 10px #55a6ff38;
+
+
+}
+

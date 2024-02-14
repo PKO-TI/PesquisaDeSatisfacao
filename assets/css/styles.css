@@ -7,7 +7,7 @@
   body {
     font-family: 'Nunito', sans-serif;
     color: #473838;
-    background-image: url('C:/Users/amaranta.lino/src/Pesquisa_satisfacao/img/pko.jpg');
+    background-image: url('../img/pko.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px; /* Adicione algum espaçamento ao redor do  conteúdo */
@@ -25,6 +25,7 @@
   h1 {
     margin: 0 0 30px 0;
     text-align: center;
+ 
   }
   
   input[type="text"],
