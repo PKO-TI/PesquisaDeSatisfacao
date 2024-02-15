@@ -10,7 +10,10 @@
 }
 :root{
     --fonte_titulo: 'Mulish-Black',sans-serif;
-    --fonte_Corpo:  'Mulish-Regular',sans-serif;
+    --fonte_corpo:  'Mulish-Regular',sans-serif;
+
+    --tamanho-fonte-titulo: 30px;
+    --tamanho-fonte-corpo: 20px;
 
     --cor_1: #bbd2ec;
     --cor_2: #00202f;

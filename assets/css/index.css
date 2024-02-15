@@ -1,12 +1,68 @@
 @import url('base.css');
+body{
+    background-color: var(--cor_2);
+}
 header{
     background-color: var(--cor_3);
 }
 .cabecalho_titulo{
-    text-align: right;
+    font-family: var(--fonte_titulo);
+    text-align: center;
+    font-size: var(--tamanho-fonte-titulo);
+    padding: 15px 0px 25px 0px;
+}
+.cabecalho_img{
+    position: absolute;
+    top: -63px;
+    left: -50px;
+    height: 200px; 
+    width: 300px ;
+
 }
 
 main{
-    background-color: var(--cor_2);
     color: var(--cor_3);
+    font-family: var(--fonte_corpo);
+    font-size: var(--tamanho-fonte-corpo);
 }
+
+.apresentacao{
+    margin-top: 15px;
+}
+
+.apresentacao_titulo{
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho-fonte-titulo);
+    margin: 0px 0px 15px 15px;
+}
+
+.apresentacao_paragrafo{
+    text-align: justify;
+    margin: 15px 200px 15px 15px;
+}
+
+.apresentacao_link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor_3);
+}
+
+.rodape_nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+.rodape_link{
+    font-size: var(--tamanho-fonte-titulo);
+    color: black;
+    text-decoration: none;
+}
+
