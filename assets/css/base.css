@@ -12,17 +12,21 @@
     --fonte_titulo: 'Mulish-Black',sans-serif;
     --fonte_corpo:  'Mulish-Regular',sans-serif;
 
-    --tamanho-fonte-titulo: 30px;
-    --tamanho-fonte-corpo: 20px;
+    --tamanho_fonte_titulo: 30px;
+    --tamanho_fonte_corpo: 20px;
 
-    --cor_1: #bbd2ec;
+    --cor_1: #3b5e97;
     --cor_2: #00202f;
     --cor_3: #fff; 
+    --cor_4: #000000;
 
     --cor_aviso: #ff0000;
-
-    --sombra: 0 5px 10px #55a6ff38;
-
-
 }
 
+
+@media(max-width: 800px) {
+    :root {
+        --tamanho_fonte_titulo: 25px;
+        --tamanho_fonte_corpo: 15px;
+    }
+}

@@ -1,0 +1,27 @@
+@import url('base.css');
+body {
+    font-family: var(--fonte_corpo);
+    font-size: var(--tamanho_fonte_corpo);
+    background-color: var(--cor_3);
+    text-align: center;
+}
+.erro_div {
+    margin: 100px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+.erro_titulo {
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_titulo);
+    margin-bottom: 30px;
+    color: var(--cor_aviso);
+}
+.erro_paragrafo {
+    margin-bottom: 20px;
+}
+.erro_link {
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_corpo);
+    color: #007bff;
+    text-decoration: none;
+}
