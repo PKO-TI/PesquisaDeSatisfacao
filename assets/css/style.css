@@ -1,4 +1,5 @@
 @import url('base.css');
+
 body{
     background-color: var(--cor_2);
     position: relative;
@@ -23,32 +24,6 @@ header{
 
 }
 
-main{
-    color: var(--cor_3);
-    font-family: var(--fonte_corpo);
-    font-size: var(--tamanho_fonte_corpo);
-}
-
-.apresentacao{
-    margin-top: 15px;
-}
-
-.apresentacao_titulo{
-    font-family: var(--fonte_titulo);
-    font-size: var(--tamanho_fonte_titulo);
-    margin: 0px 0px 15px 15px;
-}
-
-.apresentacao_paragrafo{
-    text-align: justify;
-    margin: 15px 200px 15px 15px;
-}
-
-.apresentacao_link{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-}
 
 .rodape{
     position: fixed;
@@ -91,13 +66,4 @@ main{
         left: 50px;
 
     }
-
-    .apresentacao_paragrafo{
-        margin: 15px;
-    }
-
-    .apresentacao_link{
-        margin-bottom: 15px;
-    }
-
 }

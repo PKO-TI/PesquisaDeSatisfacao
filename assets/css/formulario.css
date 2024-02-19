@@ -3,16 +3,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  
-  body {
-    font-family: 'Nunito', sans-serif;
-    color: #473838;
-    background-image: url('../img/pko.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px; /* Adicione algum espaçamento ao redor do  conteúdo */
-  }
-  
+
   form {
     max-width: 1000px; /* Largura máxima ajustada para 600 pixels */
     margin: 20px auto;
