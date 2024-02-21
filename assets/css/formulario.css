@@ -1,21 +1,19 @@
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+@import url('base.css');
 
-  form {
+  .formulario {
     max-width: 1000px; /* Largura máxima ajustada para 600 pixels */
     margin: 20px auto;
     padding: 10px;
-    background: #ecf0f5;
+    background-color: var(--cor_1);
     border-radius: 10px;
   }
   
   
-  h1 {
-    margin: 0 0 30px 0;
+  .formulario_titulo {
+    margin: 30px 0;
     text-align: center;
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_titulo);
  
   }
   
@@ -31,17 +29,12 @@
   input[type="url"],
   textarea,
   select {
-    background: rgba(255,255,255,0.1);
     border: none;
     font-size: 16px;
     height: auto;
-    margin: 0;
-    outline: 0;
     padding: 15px;
-    width: 100%;
-    background-color: #ffffff;
-    color: #8a97a0;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    width: 98%;
+    box-shadow: var(--sombra);
     margin-bottom: 30px;
   }
   
@@ -56,19 +49,20 @@
     border-radius: 2px;
   }
   
-  button {
+  .button {
+    text-decoration: none;
+    font-size: var(--tamanho_fonte_corpo);
     padding: 19px 39px 18px 39px;
-    color: #FFF;
-    background-color: #1455a0;
-    font-size: 18px;
-    text-align: center;
-    font-style: normal;
+    background-color: var(--cor_2);
     border-radius: 5px;
-    width: 100%;
-    border: 1px solid #1455a0;
-    border-width: 1px 1px 3px;
-    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-    margin-bottom: 10px;
+    box-shadow: var(--sombra);
+    display: flex;
+    justify-content: center;
+  }
+
+  .button:hover{
+    background-color: var(--cor_3);
+    color: var(--cor_5);
   }
   
   fieldset {
@@ -77,8 +71,9 @@
   }
   
   legend {
-    font-size: 1.4em;
-    margin-bottom: 10px;
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_titulo);
+    margin-bottom: 15px;
   }
   
   label {
@@ -87,27 +82,30 @@
     font-weight: bold;
   }
   
-  label.light {
-    font-weight: 300;
-    display: inline;
+  .light {
+    display: inline-flex;
+    margin-bottom: 12px;
   }
 
-  label.normal{
-    font-weight: normal;
-  }
+
   
   .number {
-    background-color: #678bbb;
-    color: #fff;
+    background-color: var(--cor_3);
+    color: var(--cor_5);
     height: 30px;
     width: 30px;
     display: inline-block;
-    font-size: 0.8em;
     margin-right: 4px;
     line-height: 30px;
     text-align: center;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: var(--sombra);
     border-radius: 100%;
+  }
+
+  .titulo_label{
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_corpo);
+    margin: 15px 0;
   }
 
   .underline-input {
@@ -135,36 +133,7 @@
 
   /* Estiliza o cabeçalho da tabela */
   th {
-    background-color: #ecf0f5; /* Adiciona uma cor de fundo para o cabeçalho */
+    background-color: var(--cor_3); /* Adiciona uma cor de fundo para o cabeçalho */
   }
 
-  .header-container {
-    display: flex; /* Ativa flexbox */
-    align-items: center; /* Alinha verticalmente os itens no centro */
-}
 
-.header-container h1 {
-    margin: 0; /* Remove a margem padrão dos títulos */
-    padding-left: 10px; /* Adiciona um pouco de espaço entre a imagem e o título */
-}
-
-  @media screen and (min-width: 480px) {
-  
-    form {
-      max-width: 800px;
-    }
-  
-  }
-  
-  @media only screen and (max-width: 768px) {
-    body {
-      max-width: 100%;
-    }
-  }
-  
-  /* Estilos específicos para telas menores (exemplo: dispositivos móveis) */
-  @media only screen and (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-  }

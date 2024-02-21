@@ -1,24 +1,28 @@
 @import url('base.css');
 
 main{
-    color: var(--cor_3);
+    color: var(--cor_5);
     font-family: var(--fonte_corpo);
     font-size: var(--tamanho_fonte_corpo);
 }
 
 .apresentacao{
+    max-width: 1200px; 
+    margin: 20px auto;
     margin-top: 15px;
 }
 
 .apresentacao_titulo{
     font-family: var(--fonte_titulo);
     font-size: var(--tamanho_fonte_titulo);
-    margin: 0px 0px 15px 15px;
+    margin-bottom: 15px;
+
 }
 
 .apresentacao_paragrafo{
     text-align: justify;
-    margin: 15px 200px 15px 15px;
+    margin-bottom: 15px;
+
 }
 
 .apresentacao_link{

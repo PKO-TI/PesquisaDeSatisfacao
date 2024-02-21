@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pesquisa de Satisfação - PKO VIDROS</title>
-<link rel="stylesheet" href="assets/">
-<link rel="stylesheet" href="assets/css/apresentacao.css">
+<link rel="stylesheet" href="assets/css/reset.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/apresentacao.css">
 <link rel="stylesheet" href="assets/css/formulario.css">
 
 
@@ -25,22 +25,16 @@
     </header>
     <main>
         <section class="apresentacao">
-            <h1 class="apresentacao_titulo">Por que sua opinião é importante para nós</h1>
+            <h2 class="apresentacao_titulo">Por que sua opinião é importante para nós</h2>
             <p class="apresentacao_paragrafo"> Aqui na PKO VIDROS, valorizamos a opinião dos nossos clientes, e é por isso que estamos sempre buscando maneiras de melhorar a sua experiência conosco. Ao responder a nossa pesquisa de satisfação, você nos ajuda a entender melhor suas necessidades e expectativas, permitindo-nos ajustar nossos produtos e serviços para atender melhor a você. Sua opinião é fundamental para garantir que possamos continuar a oferecer o melhor atendimento e os melhores produtos possíveis.</p>
             <p class="apresentacao_paragrafo"> Além disso, ao participar da pesquisa, você tem a oportunidade de expressar suas sugestões, elogios ou preocupações, o que nos permite reconhecer nossos pontos fortes e identificar áreas que precisam de melhorias. Sua contribuição não apenas nos ajuda a crescer como empresa, mas também nos permite fornecer um serviço mais personalizado e satisfatório a você, nosso cliente valorizado. Agradecemos antecipadamente por dedicar um tempo para nos ajudar a melhorar e aprimorar sua experiência conosco.</p>
         </section>
 
-        <section>
-            <form action="index.html" method="post">
-                <div class="header-container">
-                    <img src="assets/img/Logo_Principal_horizontal.png" height="140" width="250" alt="Logo PKO Vidros">
-                    <div>
-                        <h1>Pesquisa de Satisfação</h1>
-                        <h1>PKO Vidros</h1>
-                    </div>
-                </div>
+        <section >
+            <form class="formulario" action="index.html" method="post">
+                        <h3 class="formulario_titulo">Pesquisa de Satisfação</h3>   
+  
             
-                <!-- Comentário teste -->
                 <fieldset>
             
                     <legend><span class="number">1</span>Informações básicas</legend>
@@ -55,7 +49,7 @@
                     <input type="email" id="mail" name="user_email">
             
             
-                    <label>Por favor, selecione o ramo de atividade da sua empresa:</label><p>
+                    <label class="titulo_label">Por favor, selecione o ramo de atividade da sua empresa:</label><p>
                         <input type="radio" id="ramo1" value="ramo1" name="ramo_atv"><label for="ramo1" class="light">Vidraçaria</label><br>
                         <input type="radio" id="ramo2" value="ramo2" name="ramo_atv"><label for="ramo2" class="light">Esquadria / Caixilharia / Serralheria</label><br>
                         <input type="radio" id="ramo3" value="ramo3" name="ramo_atv"><label for="ramo3" class="light">Construtora / Arquitetura/ Engenharia / Consultoria</label><br>
@@ -68,16 +62,24 @@
                         <input class="underline-input" placeholder="Outro" />
             
                     <p>
-                        <label>Como você conheceu a PKO Vidros?</label>
+                        <label class="titulo_label">Como você conheceu a PKO Vidros?</label>
                     <p>
-                        <input type="radio" id="como_conheceu1" value="como_conheceu" name="como_conheceu"><label for="como_conheceu" class="light">Pesquisa no Google</label><br>
-                        <input type="radio" id="como_conheceu2" value="como_conheceu" name="como_conheceu"><label for="como_conheceu" class="light">Indicação</label><br>
-                        <input type="radio" id="como_conheceu3" value="como_conheceu" name="como_conheceu"><label for="como_conheceu" class="light">Redes Sociais</label><br>
-                        <input type="radio" id="como_conheceu4" value="como_conheceu" name="como_conheceu"><label for="como_conheceu" class="light">E-mail</label><br>
-                        <input class="underline-input" placeholder="Outro" />
-            
+                        <input type="radio" id="como_conheceu_google" value="Pesquisa no Google" name="como_conheceu">
+                        <label for="como_conheceu_google" class="light">Pesquisa no Google</label><br>
+                        
+                        <input type="radio" id="como_conheceu_indicacao" value="Indicação" name="como_conheceu">
+                        <label for="como_conheceu_indicacao" class="light">Indicação</label><br>
+                        
+                        <input type="radio" id="como_conheceu_redes_sociais" value="Redes Sociais" name="como_conheceu">
+                        <label for="como_conheceu_redes_sociais" class="light">Redes Sociais</label><br>
+                        
+                        <input type="radio" id="como_conheceu_email" value="E-mail" name="como_conheceu">
+                        <label for="como_conheceu_email" class="light">E-mail</label><br>
+                        
+                        <input type="radio" id="como_conheceu_outro" value="Outro" name="como_conheceu">
+                        <label for="como_conheceu_outro" class="light">Outro</label>           
                     <p>
-                        <label>Como você avalia a qualidade dos produtos e serviços oferecidos pela PKO Vidros?</label>
+                        <label class="titulo_label">Como você avalia a qualidade dos produtos e serviços oferecidos pela PKO Vidros?</label>
                     <p>
                         <input type="radio" id="qld_prod1" value="qld_prod" name="qld_prod"><label for="qld_prod1" class="light">Ótimo</label><br>
                         <input type="radio" id="qld_prod2" value="qld_prod" name="qld_prod"><label for="qld_prod2" class="light">Bom</label><br>
@@ -88,7 +90,7 @@
             
                         <table>
                             <p>
-                                <label>O quanto você ficou satisfeito com o atendimento de cada área?</label>
+                                <label class="titulo_label">O quanto você ficou satisfeito com o atendimento de cada área?</label>
                             <p></p>
                             <tr>
                                 <th></th>
@@ -159,7 +161,7 @@
                     <p>
                         <br>
                         <legend><span class="number">3</span> Visão Geral</legend>
-                        <label>Escolha a palavra que MAIS define a PKO Vidros, no seu ponto de vista:</label>
+                        <label class="titulo_label">Escolha a palavra que MAIS define a PKO Vidros, no seu ponto de vista:</label>
                     <p>
                         <input type="radio" id="mais_define1" value="mais_define" name="mais_define"><label for="mais_define1" class="light">Ótimo</label><br>
                         <input type="radio" id="mais_define2" value="mais_define" name="mais_define"><label for="mais_define2" class="light">Bom</label><br>
@@ -168,7 +170,7 @@
                         <input type="radio" id="mais_define5" value="mais_define" name="mais_define"><label for="mais_define5" class="light">Péssimo</label><br>
             
                     <p>
-                        <label>Escolha a palavra que MENOS define a PKO Vidros, no seu ponto de vista:</label>
+                        <label class="titulo_label">Escolha a palavra que MENOS define a PKO Vidros, no seu ponto de vista:</label>
                     <p>
                         <input type="radio" id="menos_define1" value="menos_define" name="menos_define"><label for="menos_define1" class="light">Ótimo</label><br>
                         <input type="radio" id="menos_define2" value="menos_define" name="menos_define"><label for="menos_define2" class="light">Bom</label><br>
@@ -177,7 +179,7 @@
                         <input type="radio" id="menos_define5" value="menos_define" name="menos_define"><label for="menos_define5" class="light">Péssimo</label><br>
             
                     <p>
-                        <label>Quanto você concorda com esta afirmação: “Ter feito negócios com a PKO agregou valor a minha empresa”.</label>
+                        <label class="titulo_label">Quanto você concorda com esta afirmação: “Ter feito negócios com a PKO agregou valor a minha empresa”.</label>
                     <p>
                         <input type="radio" id="negocio1" value="negocio" name="negocio"><label for="negocio1" class="light">Concordo plenamente</label><br>
                         <input type="radio" id="negocio2" value="negocio" name="negocio"><label for="negocio2" class="light">Concordo parcialmente</label><br>
@@ -186,7 +188,7 @@
             
                     <p>
                     <p>
-                        <label>De 0 a 10, quais as chances de seguir comprando nossos produtos? </label>
+                        <label class="titulo_label">De 0 a 10, quais as chances de seguir comprando nossos produtos? </label>
                     <p></p>
                     <label class="normal">0 - Não compraria</label><p></p>
                     <label class="normal">10 - Compraria</label><p></p>
@@ -209,7 +211,7 @@
                     <p>
                         <br>
                         <legend><span class="number">2</span> Satisfação</legend>
-                        <label>Em uma escala de 0 a 10, quanto você recomendaria a PKO Vidros?</label>
+                        <label class="titulo_label">Em uma escala de 0 a 10, quanto você recomendaria a PKO Vidros?</label>
                     <p></p>
                     <label class="normal">0 - Não Recomendaria</label>
                     <p></p>
@@ -232,12 +234,12 @@
             
                     <p>
                     <p>
-                        <label for="bio">Fique à vontade para deixar qualquer elogio, sugestão ou crítica.</label>
+                        <label  class="titulo_label" for="bio" >Fique à vontade para deixar qualquer elogio, sugestão ou crítica.</label>
                         <textarea id="bio" name="user_bio"></textarea>
             
                 </fieldset>
             
-                <button type="submit">Confirmar</button>
+                <a class="button" href="formulario_Concluido.html">Confirmar</a>
             
             </form>
         </section>

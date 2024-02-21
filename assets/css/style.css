@@ -1,18 +1,19 @@
 @import url('base.css');
 
 body{
-    background-color: var(--cor_2);
+    background-color: var(--cor_4);
     position: relative;
     margin: 0;
     padding-bottom: 100px; 
 }
 header{
-    background-color: var(--cor_3);
+    background-color: var(--cor_5);
 }
 .cabecalho_titulo{
     font-family: var(--fonte_titulo);
     text-align: center;
     font-size: var(--tamanho_fonte_titulo);
+    color: var(--cor_6);
     padding: 15px 0px 25px 0px;
 }
 .cabecalho_img{
@@ -29,7 +30,7 @@ header{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: var(--cor_3);
+    background-color: var(--cor_5);
 }
 
 
@@ -39,7 +40,7 @@ header{
 
 .rodape_link{
     font-size: var(--tamanho_fonte_titulo);
-    color: var(--cor_4);
+    color: var(--cor_6);
     text-decoration: none;
     transition-duration: 0.5s;
     padding: 0px 10px 1px 10px;
@@ -52,8 +53,8 @@ header{
 }
 
 .rodape_link:hover{
-    background-color: var(--cor_1);
-    color: var(--cor_3);
+    background-color: var(--cor_3);
+    color: var(--cor_5);
 }
 
 
