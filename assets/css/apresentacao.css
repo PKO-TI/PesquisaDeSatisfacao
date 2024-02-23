@@ -7,7 +7,8 @@ main{
 }
 
 .apresentacao{
-    max-width: 1200px; 
+    min-width: 300px;
+    max-width: 900px;
     margin: 20px auto;
     margin-top: 15px;
 }
@@ -41,6 +42,9 @@ main{
     .cabecalho_img{
         left: 50px;
 
+    }
+    .apresentacao_titulo{
+        margin: 15px;
     }
 
     .apresentacao_paragrafo{

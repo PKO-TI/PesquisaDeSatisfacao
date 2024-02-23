@@ -1,7 +1,8 @@
 @import url('base.css');
 
   .formulario {
-    max-width: 1000px; /* Largura máxima ajustada para 600 pixels */
+    min-width: 300px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 10px;
     background-color: var(--cor_1);
@@ -136,4 +137,35 @@
     background-color: var(--cor_3); /* Adiciona uma cor de fundo para o cabeçalho */
   }
 
+
+
+  @media (max-width: 480px){
+
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="url"],
+    textarea,
+    select {
+    width: 50%;
+    }
+
+    .titulo_label{
+      width: 50%;
+
+    }
+
+    th, tr {
+      padding: 5px;
+    }
+   
+
+
+}
 
