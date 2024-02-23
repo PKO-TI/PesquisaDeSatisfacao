@@ -23,6 +23,7 @@
         </div>
         
     </header>
+
     <main>
         <section class="apresentacao">
             <h2 class="apresentacao_titulo">Por que sua opinião é importante para nós</h2>
@@ -87,76 +88,80 @@
                         <input type="radio" id="qld_prod4" value="qld_prod" name="qld_prod"><label for="qld_prod4" class="light">Ruim</label><br>
                         <input type="radio" id="qld_prod5" value="qld_prod" name="qld_prod"><label for="qld_prod5" class="light">Péssimo</label><br>
             
-            
-                        <table>
+        
                             <p>
                                 <label class="titulo_label">O quanto você ficou satisfeito com o atendimento de cada área?</label>
                             <p></p>
-                            <tr>
-                                <th></th>
-                                <th>Muito Satisfeito</th>
-                                <th>Satisfeito</th>
-                                <th>Indiferente</th>
-                                <th>Insatisfeito</th>
-                                <th>Muito Insatisfeito</th>
-                                <th>Não posso opinar</th>
-                            </tr>
-                            <tr>
-                                <td>Time de Vendas</td>
-                                <td><input type="radio" name="vendas" value="very_satisfied"></td>
-                                <td><input type="radio" name="vendas" value="satisfied"></td>
-                                <td><input type="radio" name="vendas" value="neutral"></td>
-                                <td><input type="radio" name="vendas" value="unsatisfied"></td>
-                                <td><input type="radio" name="vendas" value="very_unsatisfied"></td>
-                                <td><input type="radio" name="vendas" value="very_unsatisfied"></td>
-                            </tr>
-                            <tr>
-                                <td>Atendimento Comercial</td>
-                                <td><input type="radio" name="comercial" value="very_satisfied"></td>
-                                <td><input type="radio" name="comercial" value="satisfied"></td>
-                                <td><input type="radio" name="comercial" value="neutral"></td>
-                                <td><input type="radio" name="comercial" value="unsatisfied"></td>
-                                <td><input type="radio" name="comercial" value="very_unsatisfied"></td>
-                                <td><input type="radio" name="comercial" value="very_unsatisfied"></td>
-                            </tr>
-                            <tr>
-                                <td>Especificação Técnica</td>
-                                <td><input type="radio" name="esp_tecnica" value="very_satisfied"></td>
-                                <td><input type="radio" name="esp_tecnica" value="satisfied"></td>
-                                <td><input type="radio" name="esp_tecnica" value="neutral"></td>
-                                <td><input type="radio" name="esp_tecnica" value="unsatisfied"></td>
-                                <td><input type="radio" name="esp_tecnica" value="very_unsatisfied"></td>
-                                <td><input type="radio" name="esp_tecnica" value="very_unsatisfied"></td>
-                            </tr>
-                            <tr>
-                                <td>Transporte e Entrega</td>
-                                <td><input type="radio" name="transpote" value="very_satisfied"></td>
-                                <td><input type="radio" name="transpote" value="satisfied"></td>
-                                <td><input type="radio" name="transpote" value="neutral"></td>
-                                <td><input type="radio" name="transpote" value="unsatisfied"></td>
-                                <td><input type="radio" name="transpote" value="very_unsatisfied"></td>
-                                <td><input type="radio" name="transpote" value="very_unsatisfied"></td>
-                            </tr>
-                            <tr>
-                                <td>Financeiro</td>
-                                <td><input type="radio" name="Financeiro" value="very_satisfied"></td>
-                                <td><input type="radio" name="Financeiro" value="satisfied"></td>
-                                <td><input type="radio" name="Financeiro" value="neutral"></td>
-                                <td><input type="radio" name="Financeiro" value="unsatisfied"></td>
-                                <td><input type="radio" name="Financeiro" value="very_unsatisfied"></td>
-                                <td><input type="radio" name="Financeiro" value="very_unsatisfied"></td>
-                            </tr>
-                            <tr>
-                                <td>Customer Service</td>
-                                <td><input type="radio" name="sac" value="very_satisfied"></td>
-                                <td><input type="radio" name="sac" value="satisfied"></td>
-                                <td><input type="radio" name="sac" value="neutral"></td>
-                                <td><input type="radio" name="sac" value="unsatisfied"></td>
-                                <td><input type="radio" name="sac" value="very_unsatisfied"></td>
-                                <td><input type="radio" name="sac" value="very_unsatisfied"></td>
-                            </tr>
-                        </table>
-            
+
+                                <div class="formulario_slider">
+                                    <p class="formulario_slider_paragrafo">Time de Vendas</p>
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                    <div class="formulario_slider_opcoes">
+                                      <div class="formulario_slider_opcao">Satisfeito</div>
+                                      <div class="formulario_slider_opcao">Indiferente</div>
+                                      <div class="formulario_slider_opcao">Insatisfeito</div>
+                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                      
+                                    </div>
+                                </div>
+                                <div class="formulario_slider">
+                                    <p class="formulario_slider_paragrafo">Atendimento Comercial</p>
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                    <div class="formulario_slider_opcoes">
+                                      <div class="formulario_slider_opcao">Satisfeito</div>
+                                      <div class="formulario_slider_opcao">Indiferente</div>
+                                      <div class="formulario_slider_opcao">Insatisfeito</div>
+                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                      
+                                    </div>
+                                </div>
+                                <div class="formulario_slider">
+                                    <p class="formulario_slider_paragrafo">Especificação Técnica</p>
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                    <div class="formulario_slider_opcoes">
+                                      <div class="formulario_slider_opcao">Satisfeito</div>
+                                      <div class="formulario_slider_opcao">Indiferente</div>
+                                      <div class="formulario_slider_opcao">Insatisfeito</div>
+                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                      
+                                    </div>
+                                </div>                                
+                                <div class="formulario_slider">
+                                    <p class="formulario_slider_paragrafo">Transporte e Entrega</p>
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                    <div class="formulario_slider_opcoes">
+                                      <div class="formulario_slider_opcao">Satisfeito</div>
+                                      <div class="formulario_slider_opcao">Indiferente</div>
+                                      <div class="formulario_slider_opcao">Insatisfeito</div>
+                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                      
+                                    </div>
+                                </div>                                
+                                <div class="formulario_slider">
+                                    <p class="formulario_slider_paragrafo">Financeiro</p>
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                    <div class="formulario_slider_opcoes">
+                                      <div class="formulario_slider_opcao">Satisfeito</div>
+                                      <div class="formulario_slider_opcao">Indiferente</div>
+                                      <div class="formulario_slider_opcao">Insatisfeito</div>
+                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                      
+                                    </div>
+                                </div>                                  
+                                <div class="formulario_slider">
+                                    <p class="formulario_slider_paragrafo">Service</p>
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                    <div class="formulario_slider_opcoes">
+                                      <div class="formulario_slider_opcao">Satisfeito</div>
+                                      <div class="formulario_slider_opcao">Indiferente</div>
+                                      <div class="formulario_slider_opcao">Insatisfeito</div>
+                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                      
+                                    </div>
+                                </div>                                
+
+ 
+        
                     <p>
                     <p>
                         <br>
@@ -201,7 +206,7 @@
                         <label class="horizontal-radio"><input type="radio" name="compra" value="5"> 5</label>
                         <label class="horizontal-radio"><input type="radio" name="compra" value="6"> 6</label>
                         <label class="horizontal-radio"><input type="radio" name="compra" value="7"> 7</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="8"> 8</label>
+                        <label class="horizontal-radio"><input type="radio" name="compra" value="8"> 8</label><br class="quebra_linha">
                         <label class="horizontal-radio"><input type="radio" name="compra" value="9"> 9</label>
                         <label class="horizontal-radio"><input type="radio" name="compra" value="10"> 10</label>
                     </div>
@@ -223,7 +228,7 @@
                         <label class="horizontal-radio"><input type="radio" name="recommendation" value="2"> 2</label>
                         <label class="horizontal-radio"><input type="radio" name="recommendation" value="3"> 3</label>
                         <label class="horizontal-radio"><input type="radio" name="recommendation" value="4"> 4</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="5"> 5</label>
+                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="5"> 5</label><br class="quebra_linha">
                         <label class="horizontal-radio"><input type="radio" name="recommendation" value="6"> 6</label>
                         <label class="horizontal-radio"><input type="radio" name="recommendation" value="7"> 7</label>
                         <label class="horizontal-radio"><input type="radio" name="recommendation" value="8"> 8</label>
@@ -245,6 +250,7 @@
         </section>
       
     </main>
+
     <footer class="rodape">
 
 
@@ -267,9 +273,5 @@
         </nav>
 
     </footer>
-
-
-
-
 </body>
 </html>

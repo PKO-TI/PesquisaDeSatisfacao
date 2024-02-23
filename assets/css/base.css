@@ -14,6 +14,7 @@
 
     --tamanho_fonte_titulo: 30px;
     --tamanho_fonte_corpo: 20px;
+    --tamanho_fonte_slider: 15px;
 
     --cor_1: #bbd2ec;
     --cor_2: #678bbb; 
@@ -31,6 +32,8 @@
 @media(max-width: 800px) {
     :root {
         --tamanho_fonte_titulo: 25px;
-        --tamanho_fonte_corpo: 15px;
+        --tamanho_fonte_corpo: 17px;
+        --tamanho_fonte_slider: 12px;
+
     }
 }

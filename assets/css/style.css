@@ -58,13 +58,26 @@ header{
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 480px){
 
     .cabecalho_titulo{
-        padding: 82px 0px 25px 0px;
+        padding: 82px 40px 25px 0px;
     }
     .cabecalho_img{
         left: 50px;
 
     }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+
+    .cabecalho_titulo{
+        padding: 82px 40px 25px 0px;
+    }
+    .cabecalho_img{
+        left: 50px;
+
+    }
+
 }

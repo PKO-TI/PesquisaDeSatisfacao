@@ -1,7 +1,7 @@
 @import url('base.css');
 
   .formulario {
-    min-width: 300px;
+    min-width: 200px;
     max-width: 900px;
     margin: 20px auto;
     padding: 10px;
@@ -103,11 +103,7 @@
     border-radius: 100%;
   }
 
-  .titulo_label{
-    font-family: var(--fonte_titulo);
-    font-size: var(--tamanho_fonte_corpo);
-    margin: 15px 0;
-  }
+
 
   .underline-input {
     border: none;
@@ -119,27 +115,66 @@
     display: inline; 
     margin-right: 10px; 
   }
+
+  .formulario_slider {
+    margin: 50px auto;
+    position: relative;
+  }
+
+  .formulario_slider_paragrafo{
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_corpo);
+    margin-bottom: 5px;
+  }
   
-  table {
+  .slider {
+    -webkit-appearance: none;
     width: 100%;
-    border-collapse: collapse; /* Remove qualquer espaço duplo causado pelas  bordas */
+    height: 15px;
+    border-radius: 5px;  
+    background-color: var(--cor_5);
+    outline: none;
+    box-shadow: var(--sombra);
+
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: var(--cor_4);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .formulario_slider_opcoes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: var(--tamanho_fonte_slider);
+
   }
 
-  /* Estiliza os cabeçalhos e células da tabela */
-  th, td {
-    border: 1px solid black; /* Adiciona uma borda preta */
-    text-align: left; /* Alinha o texto à esquerda */
-    padding: 8px; /* Adiciona um espaçamento interno para o texto não ficar colado na borda */
+  .quebra_linha{
+    display: none;
   }
 
-  /* Estiliza o cabeçalho da tabela */
-  th {
-    background-color: var(--cor_3); /* Adiciona uma cor de fundo para o cabeçalho */
-  }
 
 
 
   @media (max-width: 480px){
+
+    .formulario{
+      padding: 5px;
+    }
 
     input[type="text"],
     input[type="password"],
@@ -157,14 +192,20 @@
     }
 
     .titulo_label{
-      width: 50%;
-
+      padding-right: 50px;
     }
 
-    th, tr {
-      padding: 5px;
+    .slider{
+      width: 88%;
     }
-   
+
+    .formulario_slider_opcoes{
+       margin: 0px 53px 25px 10px;
+    }
+    .quebra_linha{
+      display: block;
+    }
+
 
 
 }

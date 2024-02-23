@@ -8,9 +8,8 @@ main{
 
 .apresentacao{
     min-width: 300px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 20px auto;
-    margin-top: 15px;
 }
 
 .apresentacao_titulo{
@@ -34,26 +33,36 @@ main{
 
 
 
-@media (max-width: 800px){
-
-    .cabecalho_titulo{
-        padding: 82px 0px 25px 0px;
-    }
-    .cabecalho_img{
-        left: 50px;
-
-    }
+@media (max-width: 480px){
     .apresentacao_titulo{
-        margin: 15px;
+        margin: 5px 50px 15px 15px;
     }
 
     .apresentacao_paragrafo{
-        margin: 15px;
+        margin: 13px 58px 15px 5px;
     }
 
     .apresentacao_link{
         margin-bottom: 15px;
     }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+
+    .apresentacao_titulo{
+        margin: 5px 50px 15px 15px;
+    }
+
+    .apresentacao_paragrafo{
+        margin: 13px 58px 15px 5px;
+    }
+
+    .apresentacao_link{
+        margin-bottom: 15px;
+    }
+
+
 
 }
 
