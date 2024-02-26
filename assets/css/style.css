@@ -28,7 +28,7 @@ header{
 
 .rodape{
     position: fixed;
-    bottom: -1px;
+    bottom: 0;
     width: 100%;
     background-color: var(--cor_5);
 }
@@ -61,7 +61,7 @@ header{
 @media (max-width: 480px){
 
     .cabecalho_titulo{
-        padding: 82px 40px 25px 0px;
+        padding: 82px 45px 25px 0px;
     }
     .cabecalho_img{
         left: 50px;

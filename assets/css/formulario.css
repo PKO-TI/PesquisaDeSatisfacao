@@ -21,6 +21,11 @@
     font-family: var(--fonte_titulo);
     margin: 20px 0;
   }
+
+  .caixa{
+    display: flex;
+    justify-content: center;
+  }
   input[type="text"],
   input[type="password"],
   input[type="date"],
@@ -39,7 +44,7 @@
     padding: 15px;
     width: 95%;
     box-shadow: var(--sombra);
-    margin-bottom: 30px;
+    margin-bottom: 30px ;
   }
   
   input[type="radio"],
@@ -55,9 +60,11 @@
   
   .button {
     text-decoration: none;
+    font-family: var(--tamanho_fonte_titulo);
     font-size: var(--tamanho_fonte_corpo);
     padding: 19px 39px 18px 39px;
     background-color: var(--cor_2);
+    color: var(--cor_6);
     border-radius: 5px;
     box-shadow: var(--sombra);
     display: flex;
@@ -112,6 +119,9 @@
     border: none;
     border-bottom: 1px solid black;
     outline: none;
+    padding: 2px;
+    font-family: var(--fonte_corpo);
+    font-size: var(--tamanho_fonte_slider);
   }
 
 
@@ -156,10 +166,12 @@
     justify-content: space-between;
     margin-bottom: 25px;
     font-size: var(--tamanho_fonte_slider);
-
   }
-
-.slider_numero{
+  .formulario_slider_opcao{
+     flex: 0.1;
+  }
+ 
+  .slider_numero{
   margin: 20px 0;
 }
 
@@ -196,6 +208,7 @@
     }
 
 }
+
 
 @media(min-width: 481px) and (max-width: 800px){
 

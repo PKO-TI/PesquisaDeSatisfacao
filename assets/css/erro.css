@@ -2,7 +2,7 @@
 body {
     font-family: var(--fonte_corpo);
     font-size: var(--tamanho_fonte_corpo);
-    background-color: var(--cor_3);
+    background-color: var(--cor_5);
     text-align: center;
 }
 .erro_div {
@@ -22,6 +22,6 @@ body {
 .erro_link {
     font-family: var(--fonte_titulo);
     font-size: var(--tamanho_fonte_corpo);
-    color: #007bff;
+    color: var(--cor_2);
     text-decoration: none;
 }

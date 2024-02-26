@@ -37,17 +37,29 @@
   
             
                 <fieldset>
-            
                     <legend><span class="number">1</span>Informações básicas</legend>
                     
-                    <label for="empresa">Empresa:</label>
-                    <input type="text" id="empresa" name="empresa">
+                                            
+                    <label for="empresa" >Empresa:</label>
+                    <div class="caixa">
+                        <input type="text" id="empresa" name="empresa">
+                    </div>
+                    
             
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="user_name">
+                    <label for="name" >Nome:</label>
+                    <div class="caixa">
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    
             
-                    <label for="mail"> Email:</label>
-                    <input type="email" id="mail" name="user_email">
+                    <label for="mail" > Email:</label>
+                    <div class="caixa">
+                        <input type="email" id="mail" name="user_email">
+                    </div>
+                    
+            
+                    
+
             
             
                     <label class="titulo_label">Por favor, selecione o ramo de atividade da sua empresa:</label><p>
@@ -99,7 +111,7 @@
                                     <div class="formulario_slider_opcoes">
                                       <div class="formulario_slider_opcao">Satisfeito</div>
                                       <div class="formulario_slider_opcao">Indiferente</div>
-                                      <div class="formulario_slider_opcao">Insatisfeito</div>
+                                      <div class="formulario_slider_opcao ">Insatisfeito</div>
                                       <div class="formulario_slider_opcao">Muito Insatisfeito</div>
                                       
                                     </div>
@@ -208,9 +220,11 @@
                             <input type="range" min="1" max="10" value="1" step="1" class="slider slider_diferente"> <br>
                             <span class="aparecer">Valor = 1</span>
                         </div>
-                                       
                         <label  class="titulo_label" for="bio" >Fique à vontade para deixar qualquer elogio, sugestão ou crítica.</label>
-                        <textarea id="bio" name="user_bio"></textarea>
+
+                        <div class="caixa">
+                            <textarea id="bio" name="user_bio"></textarea>
+                        </div>         
             
                 </fieldset>
             

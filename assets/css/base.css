@@ -13,7 +13,7 @@
     --fonte_corpo:  'Mulish-Regular',sans-serif;
 
     --tamanho_fonte_titulo: 30px;
-    --tamanho_fonte_corpo: 20px;
+    --tamanho_fonte_corpo: 25px;
     --tamanho_fonte_slider: 15px;
 
     --cor_1: #bbd2ec;
@@ -30,13 +30,14 @@
 
 @media (max-width: 480px){
       :root {
+        --tamanho_fonte_corpo: 20px;
         --tamanho_fonte_slider: 10px;
 
     }
 }
 @media(min-width: 481px) and (max-width: 800px){
     :root {
-
+        --tamanho_fonte_corpo: 20px;
         --tamanho_fonte_slider: 12px;
 
     }
