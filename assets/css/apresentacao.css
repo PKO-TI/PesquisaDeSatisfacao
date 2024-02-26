@@ -4,12 +4,13 @@ main{
     color: var(--cor_5);
     font-family: var(--fonte_corpo);
     font-size: var(--tamanho_fonte_corpo);
+    padding: 15px;
 }
 
 .apresentacao{
     min-width: 300px;
-    max-width: 1000px;
-    margin: 20px auto;
+    max-width: 1400px;
+    margin:  auto;
 }
 
 .apresentacao_titulo{
@@ -22,47 +23,6 @@ main{
 .apresentacao_paragrafo{
     text-align: justify;
     margin-bottom: 15px;
-
-}
-
-.apresentacao_link{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-}
-
-
-
-@media (max-width: 480px){
-    .apresentacao_titulo{
-        margin: 5px 50px 15px 15px;
-    }
-
-    .apresentacao_paragrafo{
-        margin: 13px 58px 15px 5px;
-    }
-
-    .apresentacao_link{
-        margin-bottom: 15px;
-    }
-
-}
-
-@media (min-width: 481px) and (max-width: 767px){
-
-    .apresentacao_titulo{
-        margin: 5px 50px 15px 15px;
-    }
-
-    .apresentacao_paragrafo{
-        margin: 13px 58px 15px 5px;
-    }
-
-    .apresentacao_link{
-        margin-bottom: 15px;
-    }
-
-
 
 }
 

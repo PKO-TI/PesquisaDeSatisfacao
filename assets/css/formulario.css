@@ -17,7 +17,10 @@
     font-size: var(--tamanho_fonte_titulo);
  
   }
-  
+  .titulo_label{
+    font-family: var(--fonte_titulo);
+    margin: 20px 0;
+  }
   input[type="text"],
   input[type="password"],
   input[type="date"],
@@ -34,7 +37,7 @@
     font-size: 16px;
     height: auto;
     padding: 15px;
-    width: 98%;
+    width: 95%;
     box-shadow: var(--sombra);
     margin-bottom: 30px;
   }
@@ -111,15 +114,8 @@
     outline: none;
   }
 
-  .horizontal-radio {
-    display: inline; 
-    margin-right: 10px; 
-  }
 
-  .formulario_slider {
-    margin: 50px auto;
-    position: relative;
-  }
+
 
   .formulario_slider_paragrafo{
     font-family: var(--fonte_titulo);
@@ -163,11 +159,9 @@
 
   }
 
-  .quebra_linha{
-    display: none;
-  }
-
-
+.slider_numero{
+  margin: 20px 0;
+}
 
 
   @media (max-width: 480px){
@@ -188,12 +182,10 @@
     input[type="url"],
     textarea,
     select {
-    width: 50%;
+    width: 80%;
     }
 
-    .titulo_label{
-      padding-right: 50px;
-    }
+
 
     .slider{
       width: 88%;
@@ -202,11 +194,24 @@
     .formulario_slider_opcoes{
        margin: 0px 53px 25px 10px;
     }
-    .quebra_linha{
-      display: block;
-    }
-
-
 
 }
 
+@media(min-width: 481px) and (max-width: 800px){
+
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+  width: 90%;
+  }
+
+}

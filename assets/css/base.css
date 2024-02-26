@@ -28,11 +28,15 @@
     --sombra: 0 5px 10px #00000041;
 }
 
+@media (max-width: 480px){
+      :root {
+        --tamanho_fonte_slider: 10px;
 
-@media(max-width: 800px) {
+    }
+}
+@media(min-width: 481px) and (max-width: 800px){
     :root {
-        --tamanho_fonte_titulo: 25px;
-        --tamanho_fonte_corpo: 17px;
+
         --tamanho_fonte_slider: 12px;
 
     }

@@ -190,55 +190,25 @@
                         <input type="radio" id="negocio2" value="negocio" name="negocio"><label for="negocio2" class="light">Concordo parcialmente</label><br>
                         <input type="radio" id="negocio3" value="negocio" name="negocio"><label for="negocio3" class="light">Discordo plenamente</label><br>
                         <input type="radio" id="negocio4" value="negocio" name="negocio"><label for="negocio4" class="light">Discordo parcialmente</label><br>
-            
-                    <p>
-                    <p>
-                        <label class="titulo_label">De 0 a 10, quais as chances de seguir comprando nossos produtos? </label>
-                    <p></p>
-                    <label class="normal">0 - Não compraria</label><p></p>
-                    <label class="normal">10 - Compraria</label><p></p>
-                    <div>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="0"> 0</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="1"> 1</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="2"> 2</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="3"> 3</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="4"> 4</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="5"> 5</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="6"> 6</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="7"> 7</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="8"> 8</label><br class="quebra_linha">
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="9"> 9</label>
-                        <label class="horizontal-radio"><input type="radio" name="compra" value="10"> 10</label>
-                    </div>
-            
-            
-                    <p>
-                    <p>
-                        <br>
+
+
+                        <div class="slider_numero">
+                            <label class="titulo_label">De 0 a 10, quais as chances de seguir comprando nossos produtos? </label>
+                            <label class="normal">0 - Não compraria</label>
+                            <label class="normal">10 - Compraria</label>
+                            <input type="range" min="1" max="10" value="1" step="1" class="slider slider_diferente" > <br>
+                            <span class="aparecer"> Valor = 1</span>
+                        </div>    
+                        
                         <legend><span class="number">3</span> Satisfação</legend>
-                        <label class="titulo_label">Em uma escala de 0 a 10, quanto você recomendaria a PKO Vidros?</label>
-                    <p></p>
-                    <label class="normal">0 - Não Recomendaria</label>
-                    <p></p>
-                    <label class="normal">10 - Recomendaria</label>
-                    <p></p>
-                    <div>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="0"> 0</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="1"> 1</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="2"> 2</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="3"> 3</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="4"> 4</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="5"> 5</label><br class="quebra_linha">
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="6"> 6</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="7"> 7</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="8"> 8</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="9"> 9</label>
-                        <label class="horizontal-radio"><input type="radio" name="recommendation" value="10"> 10</label>
-                    </div>
-            
-            
-                    <p>
-                    <p>
+                        <div class="slider_numero">
+                            <label class="titulo_label">De 0 a 10, quais as chances de seguir comprando nossos produtos? </label>
+                            <label class="normal">0 - Não Recomendaria</label>
+                            <label class="normal">10 - Recomendaria</label>
+                            <input type="range" min="1" max="10" value="1" step="1" class="slider slider_diferente"> <br>
+                            <span class="aparecer">Valor = 1</span>
+                        </div>
+                                       
                         <label  class="titulo_label" for="bio" >Fique à vontade para deixar qualquer elogio, sugestão ou crítica.</label>
                         <textarea id="bio" name="user_bio"></textarea>
             
@@ -274,4 +244,5 @@
 
     </footer>
 </body>
+<script src="assets/JS/script.js"></script>
 </html>
