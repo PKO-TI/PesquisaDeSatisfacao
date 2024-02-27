@@ -1,0 +1,12 @@
+@import url('base.css');
+.Formulario_concluido{
+    margin-top: 10vw;
+    text-align: center;
+}
+
+.Formulario_concluido_paragrafo{
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_titulo);
+    color: var(--cor_5);
+    margin-top: 20px;
+}

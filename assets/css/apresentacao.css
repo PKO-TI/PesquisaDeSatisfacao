@@ -1,0 +1,30 @@
+@import url('base.css');
+
+main{
+    color: var(--cor_5);
+    font-family: var(--fonte_corpo);
+    font-size: var(--tamanho_fonte_corpo);
+    padding: 15px;
+}
+
+.apresentacao{
+    min-width: 300px;
+    max-width: 1400px;
+    margin:  auto;
+}
+
+.apresentacao_titulo{
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_titulo);
+    margin-bottom: 15px;
+
+}
+
+.apresentacao_paragrafo{
+    text-align: justify;
+    margin-bottom: 15px;
+
+}
+
+
+

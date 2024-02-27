@@ -1,0 +1,231 @@
+@import url('base.css');
+
+  .formulario {
+    min-width: 200px;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: var(--cor_1);
+    border-radius: 10px;
+  }
+  
+  
+  .formulario_titulo {
+    margin: 30px 0;
+    text-align: center;
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_titulo);
+ 
+  }
+  .number {
+    background-color: var(--cor_3);
+    color: var(--cor_5);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: var(--sombra);
+    border-radius: 100%;
+  }
+
+  .titulo_label{
+    font-family: var(--fonte_titulo);
+    margin: 20px 0;
+  }
+
+  .caixa{
+    display: flex;
+    justify-content: center;
+  }
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    border: none;
+    font-size: 16px;
+    height: auto;
+    padding: 15px;
+    width: 95%;
+    box-shadow: var(--sombra);
+    margin-bottom: 30px ;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  .button {
+    text-decoration: none;
+    font-family: var(--tamanho_fonte_titulo);
+    font-size: var(--tamanho_fonte_corpo);
+    padding: 19px 39px 18px 39px;
+    background-color: var(--cor_2);
+    color: var(--cor_6);
+    border-radius: 5px;
+    box-shadow: var(--sombra);
+    display: flex;
+    justify-content: center;
+  }
+
+  .button:hover{
+    background-color: var(--cor_3);
+    color: var(--cor_5);
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_titulo);
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .light {
+    display: inline-flex;
+    margin-bottom: 12px;
+  }
+
+
+  
+
+
+
+  .underline-input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 2px;
+    font-family: var(--fonte_corpo);
+    font-size: var(--tamanho_fonte_slider);
+  }
+
+
+
+
+  .formulario_slider_paragrafo{
+    font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_corpo);
+    margin-bottom: 5px;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background-color: var(--cor_5);
+    outline: none;
+    box-shadow: var(--sombra);
+
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: var(--cor_4);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .formulario_slider_opcoes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: var(--tamanho_fonte_slider);
+  }
+  .formulario_slider_opcao{
+     flex: 0.1;
+  }
+ 
+  .slider_numero{
+  margin: 20px 0;
+}
+
+
+  @media (max-width: 480px){
+
+    .formulario{
+      padding: 5px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="url"],
+    textarea,
+    select {
+    width: 80%;
+    }
+
+
+
+    .slider{
+      width: 88%;
+    }
+
+    .formulario_slider_opcoes{
+       margin: 0px 53px 25px 10px;
+    }
+
+}
+
+
+@media(min-width: 481px) and (max-width: 800px){
+
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+  width: 90%;
+  }
+
+}
