@@ -17,6 +17,19 @@
     font-size: var(--tamanho_fonte_titulo);
  
   }
+  .number {
+    background-color: var(--cor_3);
+    color: var(--cor_5);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: var(--sombra);
+    border-radius: 100%;
+  }
+
   .titulo_label{
     font-family: var(--fonte_titulo);
     margin: 20px 0;
@@ -100,18 +113,6 @@
 
 
   
-  .number {
-    background-color: var(--cor_3);
-    color: var(--cor_5);
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    margin-right: 4px;
-    line-height: 30px;
-    text-align: center;
-    text-shadow: var(--sombra);
-    border-radius: 100%;
-  }
 
 
 
