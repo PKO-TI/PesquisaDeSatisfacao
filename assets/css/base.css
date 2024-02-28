@@ -12,8 +12,10 @@
     --fonte_titulo: 'Mulish-Black',sans-serif;
     --fonte_corpo:  'Mulish-Regular',sans-serif;
 
-    --tamanho_fonte_titulo: 30px;
-    --tamanho_fonte_corpo: 23px;
+    --tamanho_fonte_titulo: 35px;
+    --tamanho_fonte_titulo_label: 25px;
+    --tamanho_fonte_numero: 23px;
+    --tamanho_fonte_corpo: 25px;
     --tamanho_fonte_slider: 15px;
 
     --cor_1: #bbd2ec;
@@ -30,15 +32,21 @@
 
 @media (max-width: 480px){
       :root {
+        --tamanho_fonte_titulo: 30px;
+        --tamanho_fonte_titulo_label: 23px;
         --tamanho_fonte_corpo: 20px;
         --tamanho_fonte_slider: 10px;
+        --tamanho_fonte_numero: 18px;
 
     }
 }
 @media(min-width: 481px) and (max-width: 800px){
     :root {
+        --tamanho_fonte_titulo: 30px;
+        --tamanho_fonte_titulo_label: 23px;
         --tamanho_fonte_corpo: 20px;
         --tamanho_fonte_slider: 12px;
+        --tamanho_fonte_numero: 20px;
 
     }
 }

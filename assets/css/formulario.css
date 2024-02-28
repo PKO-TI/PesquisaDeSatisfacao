@@ -15,26 +15,42 @@
     text-align: center;
     font-family: var(--fonte_titulo);
     font-size: var(--tamanho_fonte_titulo);
+    color: var(--cor_4);
  
   }
   .number {
     background-color: var(--cor_3);
     color: var(--cor_5);
-    height: 30px;
-    width: 30px;
+    height: 45px;
+    width: 45px;
     display: inline-block;
-    margin-right: 4px;
-    line-height: 30px;
+    margin-right: 8px;
+    line-height: 45px;
     text-align: center;
     text-shadow: var(--sombra);
     border-radius: 100%;
+    font-size: var(--tamanho_fonte_numero);
+  }
+  .number_diferente {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
   }
 
-  .titulo_label{
+  legend, .titulo_label{
     font-family: var(--fonte_titulo);
+    font-size: var(--tamanho_fonte_titulo);
+    margin: 20px 0 30px 0 ;
+    
+    color: var(--cor_4);
+  }
+  .titulo_label{
+    margin: 20px 0;
+    font-size: var(--tamanho_fonte_titulo_label);
+  }
+  .titulo_label{
     margin: 20px 0;
   }
-
   .caixa{
     display: flex;
     justify-content: center;
@@ -94,16 +110,11 @@
     border: none;
   }
   
-  legend {
-    font-family: var(--fonte_titulo);
-    font-size: var(--tamanho_fonte_titulo);
-    margin-bottom: 15px;
-  }
+
   
   label {
     display: block;
     margin-bottom: 8px;
-    font-weight: bold;
   }
   
   .light {
@@ -181,6 +192,12 @@
 
     .formulario{
       padding: 5px;
+    }
+
+    .number {
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
     }
 
     input[type="text"],

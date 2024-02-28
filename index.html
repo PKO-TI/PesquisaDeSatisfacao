@@ -37,7 +37,7 @@
   
             
                 <fieldset>
-                    <legend><span class="number">1</span>Informações básicas</legend>
+                    <legend><span class="number number_diferente">1</span>Indentificações básicas</legend>
                     
                                             
                     <label for="empresa" >Empresa:</label>
@@ -62,7 +62,7 @@
 
             
             
-                    <label class="titulo_label">Por favor, selecione o ramo de atividade da sua empresa:</label><p>
+                    <label class="titulo_label"><span class="number">1.1</span>Por favor, selecione o ramo de atividade da sua empresa:</label>
                         <input type="radio" id="ramo1" value="ramo1" name="ramo_atv"><label for="ramo1" class="light">Vidraçaria</label><br>
                         <input type="radio" id="ramo2" value="ramo2" name="ramo_atv"><label for="ramo2" class="light">Esquadria / Caixilharia / Serralheria</label><br>
                         <input type="radio" id="ramo3" value="ramo3" name="ramo_atv"><label for="ramo3" class="light">Construtora / Arquitetura/ Engenharia / Consultoria</label><br>
@@ -74,9 +74,9 @@
                         <input type="radio" id="ramo9" value="ramo9" name="ramo_atv"><label for="ramo9" class="light">Consumidor Final</label><br>
                         <input class="underline-input" placeholder="Outro" />
             
-                    <p>
-                        <label class="titulo_label">Como você conheceu a PKO Vidros?</label>
-                    <p>
+                    
+                        <label class="titulo_label"><span class="number">1.2</span>Como você conheceu a PKO Vidros?</label>
+     
                         <input type="radio" id="como_conheceu_google" value="Pesquisa no Google" name="como_conheceu">
                         <label for="como_conheceu_google" class="light">Pesquisa no Google</label><br>
                         
@@ -90,10 +90,10 @@
                         <label for="como_conheceu_email" class="light">E-mail</label><br>
                         
                         <input type="radio" id="como_conheceu_outro" value="Outro" name="como_conheceu">
-                        <label for="como_conheceu_outro" class="light">Outro</label>           
-                    <p>
-                        <label class="titulo_label">Como você avalia a qualidade dos produtos e serviços oferecidos pela PKO Vidros?</label>
-                    <p>
+                        <label for="como_conheceu_outro" class="light">Outro</label> <br>          
+
+                        <label class="titulo_label"><span class="number">1.3</span>Como você avalia a qualidade dos produtos e serviços oferecidos pela PKO Vidros?</label>
+      
                         <input type="radio" id="qld_prod1" value="qld_prod" name="qld_prod"><label for="qld_prod1" class="light">Ótimo</label><br>
                         <input type="radio" id="qld_prod2" value="qld_prod" name="qld_prod"><label for="qld_prod2" class="light">Bom</label><br>
                         <input type="radio" id="qld_prod3" value="qld_prod" name="qld_prod"><label for="qld_prod3" class="light">Regular</label><br>
@@ -101,9 +101,9 @@
                         <input type="radio" id="qld_prod5" value="qld_prod" name="qld_prod"><label for="qld_prod5" class="light">Péssimo</label><br>
             
         
-                            <p>
-                                <label class="titulo_label">O quanto você ficou satisfeito com o atendimento de cada área?</label>
-                            <p></p>
+ 
+                                <label class="titulo_label"><span class="number">1.4</span>O quanto você ficou satisfeito com o atendimento de cada área?</label>
+
 
                                 <div class="formulario_slider">
                                     <p class="formulario_slider_paragrafo">Time de Vendas</p>
@@ -159,68 +159,46 @@
                                       <div class="formulario_slider_opcao">Muito Insatisfeito</div>
                                       
                                     </div>
-                                </div>                                  
-                                <div class="formulario_slider">
-                                    <p class="formulario_slider_paragrafo">Service</p>
-                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
-                                    <div class="formulario_slider_opcoes">
-                                      <div class="formulario_slider_opcao">Satisfeito</div>
-                                      <div class="formulario_slider_opcao">Indiferente</div>
-                                      <div class="formulario_slider_opcao">Insatisfeito</div>
-                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
-                                      
-                                    </div>
-                                </div>                                
+                                </div>                                                                 
 
+
+   
+                        <legend><span class="number number_diferente">2</span> Visão Geral</legend>
+                        <label class="titulo_label"><span class="number">2.1</span>Escolha a palavra que MAIS define a PKO Vidros, no seu ponto de vista:</label>
  
-        
-                    <p>
-                    <p>
-                        <br>
-                        <legend><span class="number">2</span> Visão Geral</legend>
-                        <label class="titulo_label">Escolha a palavra que MAIS define a PKO Vidros, no seu ponto de vista:</label>
-                    <p>
                         <input type="radio" id="mais_define1" value="mais_define" name="mais_define"><label for="mais_define1" class="light">Ótimo</label><br>
                         <input type="radio" id="mais_define2" value="mais_define" name="mais_define"><label for="mais_define2" class="light">Bom</label><br>
                         <input type="radio" id="mais_define3" value="mais_define" name="mais_define"><label for="mais_define3" class="light">Regular</label><br>
                         <input type="radio" id="mais_define4" value="mais_define" name="mais_define"><label for="mais_define4" class="light">Ruim</label><br>
                         <input type="radio" id="mais_define5" value="mais_define" name="mais_define"><label for="mais_define5" class="light">Péssimo</label><br>
             
-                    <p>
-                        <label class="titulo_label">Escolha a palavra que MENOS define a PKO Vidros, no seu ponto de vista:</label>
-                    <p>
+
+                        <label class="titulo_label"><span class="number">2.2</span>Escolha a palavra que MENOS define a PKO Vidros, no seu ponto de vista:</label>
+
                         <input type="radio" id="menos_define1" value="menos_define" name="menos_define"><label for="menos_define1" class="light">Ótimo</label><br>
                         <input type="radio" id="menos_define2" value="menos_define" name="menos_define"><label for="menos_define2" class="light">Bom</label><br>
                         <input type="radio" id="menos_define3" value="menos_define" name="menos_define"><label for="menos_define3" class="light">Regular</label><br>
                         <input type="radio" id="menos_define4" value="menos_define" name="menos_define"><label for="menos_define4" class="light">Ruim</label><br>
                         <input type="radio" id="menos_define5" value="menos_define" name="menos_define"><label for="menos_define5" class="light">Péssimo</label><br>
             
-                    <p>
-                        <label class="titulo_label">Quanto você concorda com esta afirmação: “Ter feito negócios com a PKO agregou valor a minha empresa”.</label>
-                    <p>
+
+                        <label class="titulo_label"><span class="number">2.3</span>Quanto você concorda com esta afirmação: “Ter feito negócios com a PKO agregou valor a minha empresa”.</label>
+
                         <input type="radio" id="negocio1" value="negocio" name="negocio"><label for="negocio1" class="light">Concordo plenamente</label><br>
                         <input type="radio" id="negocio2" value="negocio" name="negocio"><label for="negocio2" class="light">Concordo parcialmente</label><br>
                         <input type="radio" id="negocio3" value="negocio" name="negocio"><label for="negocio3" class="light">Discordo plenamente</label><br>
                         <input type="radio" id="negocio4" value="negocio" name="negocio"><label for="negocio4" class="light">Discordo parcialmente</label><br>
 
-
-                        <div class="slider_numero">
-                            <label class="titulo_label">De 0 a 10, quais as chances de seguir comprando nossos produtos? </label>
-                            <label class="normal">0 - Não compraria</label>
-                            <label class="normal">10 - Compraria</label>
-                            <input type="range" min="1" max="10" value="1" step="1" class="slider slider_diferente" > <br>
-                            <span class="aparecer"> Valor = 1</span>
-                        </div>    
                         
-                        <legend><span class="number">3</span> Satisfação</legend>
+                        <legend><span class="number number_diferente">3</span> Satisfação</legend>
                         <div class="slider_numero">
-                            <label class="titulo_label">De 0 a 10, quais as chances de seguir comprando nossos produtos? </label>
+                            <label class="titulo_label"><span class="number">3.1</span>De 0 a 10, quais as chances de seguir comprando nossos produtos? </label>
                             <label class="normal">0 - Não Recomendaria</label>
                             <label class="normal">10 - Recomendaria</label>
                             <input type="range" min="1" max="10" value="1" step="1" class="slider slider_diferente"> <br>
                             <span class="aparecer">Valor = 1</span>
                         </div>
-                        <label  class="titulo_label" for="bio" >Fique à vontade para deixar qualquer elogio, sugestão ou crítica.</label>
+                        <label  class="titulo_label" for="bio" ><span class="number">3.2</span>Fique à vontade para deixar qualquer elogio, sugestão ou crítica.</label>
 
                         <div class="caixa">
                             <textarea id="bio" name="user_bio"></textarea>
