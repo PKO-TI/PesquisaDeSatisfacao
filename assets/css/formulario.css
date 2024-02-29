@@ -29,12 +29,13 @@
     text-align: center;
     text-shadow: var(--sombra);
     border-radius: 100%;
-    font-size: var(--tamanho_fonte_numero);
+    font-size: var(--tamanho_fonte_numero_02);
   }
   .number_diferente {
     height: 40px;
     width: 40px;
     line-height: 40px;
+    font-size: var(--tamanho_fonte_numero_01);
   }
 
   legend, .titulo_label{
@@ -186,6 +187,7 @@
   .slider_numero{
   margin: 20px 0;
 }
+
 
 
   @media (max-width: 480px){

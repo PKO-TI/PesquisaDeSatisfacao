@@ -14,7 +14,8 @@
 
     --tamanho_fonte_titulo: 35px;
     --tamanho_fonte_titulo_label: 25px;
-    --tamanho_fonte_numero: 23px;
+    --tamanho_fonte_numero_01: 25px;
+    --tamanho_fonte_numero_02: 23px;
     --tamanho_fonte_corpo: 25px;
     --tamanho_fonte_slider: 15px;
 
@@ -36,7 +37,8 @@
         --tamanho_fonte_titulo_label: 23px;
         --tamanho_fonte_corpo: 20px;
         --tamanho_fonte_slider: 10px;
-        --tamanho_fonte_numero: 18px;
+        --tamanho_fonte_numero_01: 21px;
+        --tamanho_fonte_numero_02: 18px;
 
     }
 }
@@ -46,7 +48,8 @@
         --tamanho_fonte_titulo_label: 23px;
         --tamanho_fonte_corpo: 20px;
         --tamanho_fonte_slider: 12px;
-        --tamanho_fonte_numero: 20px;
+        --tamanho_fonte_numero_01: 23px;
+        --tamanho_fonte_numero_02: 20px;
 
     }
 }
