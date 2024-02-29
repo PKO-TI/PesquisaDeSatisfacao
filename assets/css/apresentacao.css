@@ -1,7 +1,7 @@
 @import url('base.css');
 
 main{
-    color: var(--cor_5);
+    color: var(--cor_6);
     font-family: var(--fonte_corpo);
     font-size: var(--tamanho_fonte_corpo);
     padding: 15px;
