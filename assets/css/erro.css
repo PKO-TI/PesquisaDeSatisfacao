@@ -2,7 +2,7 @@
 body {
     font-family: var(--fonte_corpo);
     font-size: var(--tamanho_fonte_corpo);
-    background-color: var(--cor_5);
+    background-color: var(--cor_6);
     text-align: center;
 }
 .erro_div {
