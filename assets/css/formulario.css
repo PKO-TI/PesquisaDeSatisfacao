@@ -225,7 +225,13 @@
     }
 
     .formulario_slider_opcoes{
-       margin: 0px 53px 25px 10px;
+       margin: 6px 9px 24px 23px;
+    }
+    .formulario_slider_paragrafo{
+      margin-left: 23px;
+    }
+    .formulario_slider_div{
+      text-align: center;
     }
 
 }
