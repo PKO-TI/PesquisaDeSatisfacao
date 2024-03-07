@@ -39,20 +39,18 @@
     font-size: var(--tamanho_fonte_numero_01);
   }
 
-  legend, .titulo_label{
+  legend, h3{
     font-family: var(--fonte_titulo);
     font-size: var(--tamanho_fonte_titulo);
     margin: 20px 0 30px 0 ;
     
     color: var(--cor_4);
   }
-  .titulo_label{
+  legend{
     margin: 20px 0;
     font-size: var(--tamanho_fonte_titulo_label);
   }
-  .titulo_label{
-    margin: 20px 0;
-  }
+
   .caixa{
     display: flex;
     justify-content: center;

@@ -32,203 +32,213 @@
         </section>
 
         <section >
-            <form class="formulario" action="index.html" method="post">
-                        <h3 class="formulario_titulo">Pesquisa de Satisfação</h3>   
-  
-            
-                <fieldset>
-                    <legend><span class="number number_diferente">1</span>Indentificações básicas</legend>
-                    
-                                            
-                    <label for="empresa" >Empresa:</label>
-                    <div class="caixa">
-                        <input type="text" id="empresa" name="empresa">
+            <form class="formulario">
+                <h2 class="formulario_titulo">Pesquisa de Satisfação</h2>
+                <section>
+                    <h3><span class="number number_diferente">1</span>Indentificações básicas</h3>
+                    <div>
+                        <label for="empresa">Empresa:</label>
+                        <input type="text" id="empresa" name="empresa" >
                     </div>
-                    
-            
-                    <label for="name" >Nome:</label>
-                    <div class="caixa">
-                        <input type="text" id="name" name="user_name">
-                    </div>
-                    
-            
-                    <label for="mail" > Email:</label>
-                    <div class="caixa">
-                        <input type="email" id="mail" name="user_email">
-                    </div>
-                    
-            
-                    
-
-            
-            
-                    <label class="titulo_label"><span class="number">1.1</span>Por favor, selecione o ramo de atividade da sua empresa:</label>
-                        <input type="radio" id="ramo1" value="ramo1" name="ramo_atv"><label for="ramo1" class="light">Vidraçaria</label><br>
-                        <input type="radio" id="ramo2" value="ramo2" name="ramo_atv"><label for="ramo2" class="light">Esquadria / Caixilharia / Serralheria</label><br>
-                        <input type="radio" id="ramo3" value="ramo3" name="ramo_atv"><label for="ramo3" class="light">Construtora / Arquitetura/ Engenharia / Consultoria</label><br>
-                        <input type="radio" id="ramo4" value="ramo4" name="ramo_atv"><label for="ramo4" class="light">Distribuidor / Beneficiador</label><br>
-                        <input type="radio" id="ramo5" value="ramo5" name="ramo_atv"><label for="ramo5" class="light">Hospitalar / Área da Saúde</label><br>
-                        <input type="radio" id="ramo6" value="ramo6" name="ramo_atv"><label for="ramo6" class="light">Arquitetura / Decoração</label><br>
-                        <input type="radio" id="ramo7" value="ramo7" name="ramo_atv"><label for="ramo7" class="light">Marmoraria</label><br>
-                        <input type="radio" id="ramo8" value="ramo8" name="ramo_atv"><label for="ramo8" class="light">Divisorias Corporativas</label><br>
-                        <input type="radio" id="ramo9" value="ramo9" name="ramo_atv"><label for="ramo9" class="light">Consumidor Final</label><br>
-                        <input class="underline-input" placeholder="Outro" />
-            
-                    
-                        <label class="titulo_label"><span class="number">1.2</span>Como você conheceu a PKO Vidros?</label>
-     
-                        <input type="radio" id="como_conheceu_google" value="Pesquisa no Google" name="como_conheceu">
-                        <label for="como_conheceu_google" class="light">Pesquisa no Google</label><br>
-                        
-                        <input type="radio" id="como_conheceu_indicacao" value="Indicação" name="como_conheceu">
-                        <label for="como_conheceu_indicacao" class="light">Indicação</label><br>
-                        
-                        <input type="radio" id="como_conheceu_redes_sociais" value="Redes Sociais" name="como_conheceu">
-                        <label for="como_conheceu_redes_sociais" class="light">Redes Sociais</label><br>
-                        
-                        <input type="radio" id="como_conheceu_email" value="E-mail" name="como_conheceu">
-                        <label for="como_conheceu_email" class="light">E-mail</label><br>
-                        
-                        <input type="radio" id="como_conheceu_outro" value="Outro" name="como_conheceu">
-                        <label for="como_conheceu_outro" class="light">Outro</label> <br>          
-
-                        <label class="titulo_label"><span class="number">1.3</span>Como você avalia a qualidade dos produtos e serviços oferecidos pela PKO Vidros?</label>
-      
-                        <input type="radio" id="qld_prod1" value="qld_prod" name="qld_prod"><label for="qld_prod1" class="light">Ótimo</label><br>
-                        <input type="radio" id="qld_prod2" value="qld_prod" name="qld_prod"><label for="qld_prod2" class="light">Bom</label><br>
-                        <input type="radio" id="qld_prod3" value="qld_prod" name="qld_prod"><label for="qld_prod3" class="light">Regular</label><br>
-                        <input type="radio" id="qld_prod4" value="qld_prod" name="qld_prod"><label for="qld_prod4" class="light">Ruim</label><br>
-                        <input type="radio" id="qld_prod5" value="qld_prod" name="qld_prod"><label for="qld_prod5" class="light">Péssimo</label><br>
-            
         
- 
-                                <label class="titulo_label"><span class="number">1.4</span>O quanto você ficou satisfeito com o atendimento de cada área?</label>
-
-
-                                <div class="formulario_slider">
-                                    <p class="formulario_slider_paragrafo">Time de Vendas</p>
-                                    <div class="formulario_slider_div">
-                                        <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
-                                    </div>
-                                    
-                                    <div class="formulario_slider_opcoes">
-                                      <div class="formulario_slider_opcao">Satisfeito</div>
-                                      <div class="formulario_slider_opcao">Indiferente</div>
-                                      <div class="formulario_slider_opcao ">Insatisfeito</div>
-                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
-                                      
-                                    </div>
-                                </div>
-                                <div class="formulario_slider">
-                                    <p class="formulario_slider_paragrafo">Atendimento Comercial</p>
-                                    <div class="formulario_slider_div">
-                                        <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
-                                    </div>
-
-                                    <div class="formulario_slider_opcoes">
-                                      <div class="formulario_slider_opcao">Satisfeito</div>
-                                      <div class="formulario_slider_opcao">Indiferente</div>
-                                      <div class="formulario_slider_opcao">Insatisfeito</div>
-                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
-                                      
-                                    </div>
-                                </div>
-                                <div class="formulario_slider">
-                                    <p class="formulario_slider_paragrafo">Especificação Técnica</p>
-                                    <div class="formulario_slider_div">
-                                        <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
-                                    </div>
-                                    <div class="formulario_slider_opcoes">
-                                      <div class="formulario_slider_opcao">Satisfeito</div>
-                                      <div class="formulario_slider_opcao">Indiferente</div>
-                                      <div class="formulario_slider_opcao">Insatisfeito</div>
-                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
-                                      
-                                    </div>
-                                </div>                                
-                                <div class="formulario_slider">
-                                    <p class="formulario_slider_paragrafo">Transporte e Entrega</p>
-                                    <div class="formulario_slider_div">
-                                        <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
-                                    </div>
-                                    
-                                    <div class="formulario_slider_opcoes">
-                                      <div class="formulario_slider_opcao">Satisfeito</div>
-                                      <div class="formulario_slider_opcao">Indiferente</div>
-                                      <div class="formulario_slider_opcao">Insatisfeito</div>
-                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
-                                      
-                                    </div>
-                                </div>                                
-                                <div class="formulario_slider">
-                                    <p class="formulario_slider_paragrafo">Financeiro</p>
-                                    <div class="formulario_slider_div">
-                                        <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
-                                    </div>
-                                    
-                                    <div class="formulario_slider_opcoes">
-                                      <div class="formulario_slider_opcao">Satisfeito</div>
-                                      <div class="formulario_slider_opcao">Indiferente</div>
-                                      <div class="formulario_slider_opcao">Insatisfeito</div>
-                                      <div class="formulario_slider_opcao">Muito Insatisfeito</div>
-                                      
-                                    </div>
-                                </div>                                                                 
-
-
-   
-                        <legend><span class="number number_diferente">2</span> Visão Geral</legend>
-                        <label class="titulo_label"><span class="number">2.1</span>Escolha a palavra que MAIS define a PKO Vidros, no seu ponto de vista:</label>
- 
-                        <input type="radio" id="mais_define1" value="mais_define" name="mais_define"><label for="mais_define1" class="light">Ótimo</label><br>
-                        <input type="radio" id="mais_define2" value="mais_define" name="mais_define"><label for="mais_define2" class="light">Bom</label><br>
-                        <input type="radio" id="mais_define3" value="mais_define" name="mais_define"><label for="mais_define3" class="light">Regular</label><br>
-                        <input type="radio" id="mais_define4" value="mais_define" name="mais_define"><label for="mais_define4" class="light">Ruim</label><br>
-                        <input type="radio" id="mais_define5" value="mais_define" name="mais_define"><label for="mais_define5" class="light">Péssimo</label><br>
-            
-
-                        <label class="titulo_label"><span class="number">2.2</span>Escolha a palavra que MENOS define a PKO Vidros, no seu ponto de vista:</label>
-
-                        <input type="radio" id="menos_define1" value="menos_define" name="menos_define"><label for="menos_define1" class="light">Ótimo</label><br>
-                        <input type="radio" id="menos_define2" value="menos_define" name="menos_define"><label for="menos_define2" class="light">Bom</label><br>
-                        <input type="radio" id="menos_define3" value="menos_define" name="menos_define"><label for="menos_define3" class="light">Regular</label><br>
-                        <input type="radio" id="menos_define4" value="menos_define" name="menos_define"><label for="menos_define4" class="light">Ruim</label><br>
-                        <input type="radio" id="menos_define5" value="menos_define" name="menos_define"><label for="menos_define5" class="light">Péssimo</label><br>
-            
-
-                        <label class="titulo_label"><span class="number">2.3</span>Quanto você concorda com esta afirmação: “Ter feito negócios com a PKO agregou valor a minha empresa”.</label>
-
-                        <input type="radio" id="negocio1" value="negocio" name="negocio"><label for="negocio1" class="light">Concordo plenamente</label><br>
-                        <input type="radio" id="negocio2" value="negocio" name="negocio"><label for="negocio2" class="light">Concordo parcialmente</label><br>
-                        <input type="radio" id="negocio3" value="negocio" name="negocio"><label for="negocio3" class="light">Discordo plenamente</label><br>
-                        <input type="radio" id="negocio4" value="negocio" name="negocio"><label for="negocio4" class="light">Discordo parcialmente</label><br>
-
-                        <label class="titulo_label"><span class="number">2.4</span>Qual o seu consumo de vidro em metros quadrados por mês?</label>
-                        <input type="number" name="num" id="num" class="light">
-
-
-                        
-                        <legend><span class="number number_diferente">3</span> Satisfação</legend>
-                        <div class="slider_numero">
-                            <label class="titulo_label"><span class="number">3.1</span>De 0 a 10, quais as chances de seguir comprando nossos produtos? </label>
-                            <label class="normal">0 - Não Recomendaria</label>
-                            <label class="normal">10 - Recomendaria</label>
-                            <div class="formulario_slider_div">
-                                <input type="range" min="1" max="10" value="1" step="1" class="slider slider_diferente"> <br>
-                            </div>
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="user_name" >
+                    </div>
+        
+                    <div>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email" >
+                    </div>
+        
+                    <div>
+                        <fieldset>
+                            <legend><span class="number">1.1</span>Ramo de atividade da empresa:</legend>
+                            <label for="ramo1" class="light"><input type="radio" id="ramo1" value="ramo1" name="ramo_atv">Vidraçaria</label><br>
+                            <label for="ramo2" class="light"><input type="radio" id="ramo2" value="ramo2" name="ramo_atv">Esquadria / Caixilharia / Serralheria</label><br>
+                            <label for="ramo3" class="light"><input type="radio" id="ramo3" value="ramo3" name="ramo_atv">Construtora / Arquitetura/ Engenharia / Consultoria</label><br>
+                            <label for="ramo4" class="light"><input type="radio" id="ramo4" value="ramo4" name="ramo_atv">Distribuidor / Beneficiador</label><br>
+                            <label for="ramo5" class="light"><input type="radio" id="ramo5" value="ramo5" name="ramo_atv">Hospitalar / Área da Saúde</label><br>
+                            <label for="ramo6" class="light"><input type="radio" id="ramo6" value="ramo6" name="ramo_atv">Arquitetura / Decoração</label><br>
+                            <label for="ramo7" class="light"><input type="radio" id="ramo7" value="ramo7" name="ramo_atv">Marmoraria</label><br>
+                            <label for="ramo8" class="light"><input type="radio" id="ramo8" value="ramo8" name="ramo_atv">Divisorias Corporativas</label><br>
+                            <label for="ramo9" class="light"><input type="radio" id="ramo9" value="ramo9" name="ramo_atv">Consumidor Final</label><br>
+                            <input type="text" placeholder="Outro" name="outro_ramo">
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend><span class="number">1.2</span>Como você conheceu a PKO Vidros?</legend>
+                            <label for="como_conheceu_google" class="light"><input type="radio" id="como_conheceu_google" value="Pesquisa no Google" name="como_conheceu">Pesquisa no Google</label><br>
+              
+                            <label for="como_conheceu_indicacao" class="light"><input type="radio" id="como_conheceu_indicacao" value="Indicação" name="como_conheceu">Indicação</label><br>
+                    
+                            <label for="como_conheceu_redes_sociais" class="light"><input type="radio" id="como_conheceu_redes_sociais" value="Redes Sociais" name="como_conheceu">Redes Sociais</label><br>
                             
-                            <span class="aparecer">Valor = 1</span>
-                        </div>
-                        <label  class="titulo_label" for="bio" ><span class="number">3.2</span>Fique à vontade para deixar qualquer elogio, sugestão ou crítica.</label>
-
-                        <div class="caixa">
-                            <textarea id="bio" name="user_bio"></textarea>
-                        </div>         
-            
-                </fieldset>
-            
+                            <label for="como_conheceu_email" class="light"><input type="radio" id="como_conheceu_email" value="E-mail" name="como_conheceu">E-mail</label><br>
+              
+                            <label for="como_conheceu_outro" class="light"><input type="radio" id="como_conheceu_outro" value="Outro" name="como_conheceu">Outro</label> <br>    
+                        </fieldset>
+             
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend><span class="number">1.3</span>Como você avalia a qualidade dos produtos e serviços oferecidos pela PKO Vidros?</legend>
+                            <label for="qld_prod1" class="light"><input type="radio" id="qld_prod1" value="qld_prod" name="qld_prod">Ótimo</label><br>
+                            <label for="qld_prod2" class="light"><input type="radio" id="qld_prod2" value="qld_prod" name="qld_prod">Bom</label><br>
+                            <label for="qld_prod3" class="light"><input type="radio" id="qld_prod3" value="qld_prod" name="qld_prod">Regular</label><br>
+                            <label for="qld_prod4" class="light"><input type="radio" id="qld_prod4" value="qld_prod" name="qld_prod">Ruim</label><br>
+                            <label for="qld_prod5" class="light"><input type="radio" id="qld_prod5" value="qld_prod" name="qld_prod">Péssimo</label><br>
+              
+                        </fieldset>
+                     
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend ><span class="number">1.4</span>O quanto você ficou satisfeito com o atendimento de cada área?</legend>
+                            <div class="formulario_slider">
+                                <p class="formulario_slider_paragrafo">Time de Vendas</p>
+                                <div class="formulario_slider_div">
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                </div>
+                                
+                                <div class="formulario_slider_opcoes">
+                                  <div class="formulario_slider_opcao">Satisfeito</div>
+                                  <div class="formulario_slider_opcao">Indiferente</div>
+                                  <div class="formulario_slider_opcao ">Insatisfeito</div>
+                                  <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                  
+                                </div>
+                            </div>
+                            <div class="formulario_slider">
+                                <p class="formulario_slider_paragrafo">Atendimento Comercial</p>
+                                <div class="formulario_slider_div">
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                </div>
+              
+                                <div class="formulario_slider_opcoes">
+                                  <div class="formulario_slider_opcao">Satisfeito</div>
+                                  <div class="formulario_slider_opcao">Indiferente</div>
+                                  <div class="formulario_slider_opcao">Insatisfeito</div>
+                                  <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                  
+                                </div>
+                            </div>
+                            <div class="formulario_slider">
+                                <p class="formulario_slider_paragrafo">Especificação Técnica</p>
+                                <div class="formulario_slider_div">
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                </div>
+                                <div class="formulario_slider_opcoes">
+                                  <div class="formulario_slider_opcao">Satisfeito</div>
+                                  <div class="formulario_slider_opcao">Indiferente</div>
+                                  <div class="formulario_slider_opcao">Insatisfeito</div>
+                                  <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                  
+                                </div>
+                            </div>                                
+                            <div class="formulario_slider">
+                                <p class="formulario_slider_paragrafo">Transporte e Entrega</p>
+                                <div class="formulario_slider_div">
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                </div>
+                                
+                                <div class="formulario_slider_opcoes">
+                                  <div class="formulario_slider_opcao">Satisfeito</div>
+                                  <div class="formulario_slider_opcao">Indiferente</div>
+                                  <div class="formulario_slider_opcao">Insatisfeito</div>
+                                  <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                  
+                                </div>
+                            </div>                                
+                            <div class="formulario_slider">
+                                <p class="formulario_slider_paragrafo">Financeiro</p>
+                                <div class="formulario_slider_div">
+                                    <input type="range" min="1" max="4" value="1" step="1" class="slider" id="ratingSlider">
+                                </div>
+                                
+                                <div class="formulario_slider_opcoes">
+                                  <div class="formulario_slider_opcao">Satisfeito</div>
+                                  <div class="formulario_slider_opcao">Indiferente</div>
+                                  <div class="formulario_slider_opcao">Insatisfeito</div>
+                                  <div class="formulario_slider_opcao">Muito Insatisfeito</div>
+                                  
+                                </div>
+                            </div> 
+                        </fieldset>
+         
+                    </div>
+                </section>
+                <section>
+                    <h3><span class="number number_diferente">2</span>Visão Geral</h3>
+        
+                    <div>
+                        <fieldset>
+                            <legend><span class="number">2.1</span>Escolha a palavra que MAIS define a PKO Vidros, no seu ponto de vista:</legend>
+                            <label for="mais_define1" class="light"><input type="radio" id="mais_define1" value="mais_define" name="mais_define">Ótimo</label><br>
+                            <label for="mais_define2" class="light"><input type="radio" id="mais_define2" value="mais_define" name="mais_define">Bom</label><br>
+                            <label for="mais_define3" class="light"><input type="radio" id="mais_define3" value="mais_define" name="mais_define">Regular</label><br>
+                            <label for="mais_define4" class="light"><input type="radio" id="mais_define4" value="mais_define" name="mais_define">Ruim</label><br>
+                            <label for="mais_define5" class="light"><input type="radio" id="mais_define5" value="mais_define" name="mais_define">Péssimo</label><br>
+                
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend><span class="number">2.2</span>Escolha a palavra que MENOS define a PKO Vidros, no seu ponto de vista:</legend>
+                            <label for="menos_define1" class="light"><input type="radio" id="menos_define1" value="menos_define" name="menos_define">Ótimo</label><br>
+                            <label for="menos_define2" class="light"><input type="radio" id="menos_define2" value="menos_define" name="menos_define">Bom</label><br>
+                            <label for="menos_define3" class="light"><input type="radio" id="menos_define3" value="menos_define" name="menos_define">Regular</label><br>
+                            <label for="menos_define4" class="light"><input type="radio" id="menos_define4" value="menos_define" name="menos_define">Ruim</label><br>
+                            <label for="menos_define5" class="light"><input type="radio" id="menos_define5" value="menos_define" name="menos_define">Péssimo</label><br>
+                
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend ><span class="number">2.3</span>Quanto você concorda com esta afirmação: “Ter feito negócios com a PKO agregou valor a minha empresa”.</legend>
+                            <label for="negocio1" class="light"><input type="radio" id="negocio1" value="negocio" name="negocio">Concordo plenamente</label><br>
+                            <label for="negocio2" class="light"><input type="radio" id="negocio2" value="negocio" name="negocio">Concordo parcialmente</label><br>
+                            <label for="negocio3" class="light"><input type="radio" id="negocio3" value="negocio" name="negocio">Discordo plenamente</label><br>
+                            <label for="negocio4" class="light"><input type="radio" id="negocio4" value="negocio" name="negocio">Discordo parcialmente</label><br>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend ><span class="number">2.4</span>Qual o seu consumo de vidro em metros quadrados por mês?</legend>
+                            <input type="number" name="num" id="num" class="light">
+                        </fieldset>
+                    </div>
+        
+                </section>
+                <section>
+                    <h3><span class="number number_diferente">3</span>Satisfação</h3>
+        
+                    <div>
+                        <fieldset>
+                            <div class="slider_numero">
+                                <legend ><span class="number">3.1</span>De 0 a 10, quais as chances de seguir comprando nossos produtos? </legend>
+                                <label class="normal">0 - Não Recomendaria</label>
+                                <label class="normal">10 - Recomendaria</label>
+                                <div class="formulario_slider_div">
+                                    <input type="range" min="1" max="10" value="1" step="1" class="slider slider_diferente"> <br>
+                                </div>
+                                <span class="aparecer">Valor = 1</span>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend  for="bio" ><span class="number">3.2</span>Fique à vontade para deixar qualquer elogio, sugestão ou crítica.</legend>
+        
+                            <div class="caixa">
+                                <textarea id="bio" name="user_bio"></textarea>
+                            </div>  
+        
+                        </fieldset>
+                    </div>
+        
+                </section>
                 <a class="button" href="formulario_Concluido.html">Confirmar</a>
-            
             </form>
         </section>
       
